@@ -260,4 +260,8 @@ p {
   .header-h1-text {
     white-space: nowrap;
   }
+
+  /* .temp-name{
+    padding-left: 5px;
+  } */
 }

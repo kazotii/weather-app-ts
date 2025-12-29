@@ -1,8 +1,30 @@
 import { create } from "zustand"
 
+export interface WeatherData{
+  name:string;
+  sys:{
+    country:string;
+  };
+  wind:{
+    speed:number;
+  }
+  weather:{
+    description:string;
+    icon:string;
+    main:string;
+  }[]
+  main: {
+    temp:number;
+    feels_like:number;
+    temp_max:number;
+    temp_min:number;
+    humidity:number;
+  };
+}
+
 interface WeatherStore{
     city: string,
-    weather: any | null,
+    weather: WeatherData | null,
     error: string | null,
     setCity: (city:string) => void,
     getWeather:() => void,

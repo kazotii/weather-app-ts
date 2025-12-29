@@ -1,4 +1,6 @@
-function WeatherCard({data}:{data:any}){
+import { WeatherData } from "../useWeatherStore";
+
+function WeatherCard({data}:{data:WeatherData}){
     const date = new Date().toLocaleDateString('en-US', { weekday: 'long', day: 'numeric', month: 'long' });
     return(
         <div className="weather-result">

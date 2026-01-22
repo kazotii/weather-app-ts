@@ -19,5 +19,5 @@ Modern weather application built with React and TypeScript, focused on efficient
 
 ## Architecture
 The project follows a clean logic-component separation:
-/functions: Centralized store and API logic.
-/components: Pure UI components receiving data via selectors.
+- **/functions:** Centralized store and API logic.
+- **/components:** Pure UI components receiving data via selectors.

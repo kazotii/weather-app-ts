@@ -1,5 +1,5 @@
 <img width="1919" height="875" alt="image" src="https://github.com/user-attachments/assets/9eac69de-6bc6-4182-9fca-8a8cea300786" />
-https://kazotii.github.io/weather-app-ts/
+https://weather-app-ts-lime.vercel.app/
 
 ## Weather Dashboard (TypeScript)
 Modern weather application built with React and TypeScript, focused on efficient state management and data persistence.
